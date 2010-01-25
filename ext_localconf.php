@@ -28,7 +28,7 @@ if ( version_compare(TYPO3_version, '4.2.0', '<') ) {
  * Register some hooks
  */
  // Enable softref parser work with linkhandler values
-if ( version_compare(TYPO3_version, '4.3.0', '<') && is_array($configurationArray) && array_key_exists('applyXclassToEnableSoftrefParser', $configurationArray) && ($configurationArray['applyXclassToEnableSoftrefParser']) == 1) {
+if ( version_compare(TYPO3_version, '4.3.1', '<=') && is_array($configurationArray) && array_key_exists('applyXclassToEnableSoftrefParser', $configurationArray) && ($configurationArray['applyXclassToEnableSoftrefParser']) == 1) {
 	$TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['t3lib/class.t3lib_softrefproc.php'] = t3lib_extMgm::extPath($_EXTKEY) . '/patch/class.ux_t3lib_softrefproc.php';
 }
 // Enalbe  bug fix #10827: Hide "Save and View"-button when editing a content-element
