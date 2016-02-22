@@ -12,10 +12,10 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'AOE link handler',
-	'description' => 'Enables userfriendly links to records like tt_news etc... Configure new Tabs to the link-wizard. (by AOE media GmbH)',
+	'description' => 'Enables user friendly links to records like tt_news etc... Configure new Tabs to the link-wizard. (by AOE  GmbH)',
 	'category' => 'plugin',
 	'shy' => 0,
-	'version' => '1.0.5',
+	'version' => '1.0.6',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
@@ -28,8 +28,8 @@ $EM_CONF[$_EXTKEY] = array(
 	'clearcacheonload' => 0,
 	'lockType' => '',
 	'author' => 'Daniel Poetzinger, Michael Klapper',
-	'author_email' => 'mylastname@aoemedia.de',
-	'author_company' => 'AOE media GmbH',
+	'author_email' => 'daniel.poetzinger@aoe.com,michael.klapper@aoe.com',
+	'author_company' => 'AOE GmbH',
 	'CGLcompliance' => '',
 	'CGLcompliance_note' => '',
 	'constraints' => array(
@@ -44,7 +44,7 @@ $EM_CONF[$_EXTKEY] = array(
 		'suggests' => array(
 		),
 	),
-	'_md5_values_when_last_written' => 'a:23:{s:9:"ChangeLog";s:4:"05f9";s:10:"README.txt";s:4:"ee2d";s:41:"class.tx_linkhandler_browselinkshooks.php";s:4:"c32e";s:32:"class.tx_linkhandler_handler.php";s:4:"d45f";s:21:"ext_conf_template.txt";s:4:"6e68";s:12:"ext_icon.gif";s:4:"f19a";s:17:"ext_localconf.php";s:4:"cc5b";s:14:"ext_tables.php";s:4:"64cd";s:42:"classes/class.tx_linkhandler_recordTab.php";s:4:"3272";s:47:"classes/interface.tx_linkhandler_tabHandler.php";s:4:"1ca3";s:50:"classes/record/class.TBE_browser_recordListRTE.php";s:4:"d7f9";s:51:"classes/record/class.tx_linkhandler_recordsTree.php";s:4:"5148";s:14:"doc/manual.sxw";s:4:"653d";s:19:"doc/wizard_form.dat";s:4:"cfc2";s:20:"doc/wizard_form.html";s:4:"c70c";s:35:"patch/4.1/class.ux_browse_links.php";s:4:"6c5a";s:43:"patch/4.1/class.ux_t3lib_parsehtml_proc.php";s:4:"d0de";s:36:"patch/4.1/class.ux_tslib_content.php";s:4:"c23e";s:50:"patch/4.1/class.ux_tx_rtehtmlarea_browse_links.php";s:4:"4328";s:39:"patch/4.1/class.ux_ux_tslib_content.php";s:4:"df20";s:52:"patch/interfaces/interface.t3lib_browselinkshook.php";s:4:"258f";s:33:"static/link_handler/constants.txt";s:4:"1e06";s:29:"static/link_handler/setup.txt";s:4:"f86a";}',
+	'_md5_values_when_last_written' => '',
 	'suggests' => array(
 	),
 );
